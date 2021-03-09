@@ -1343,7 +1343,7 @@ add_newdoc('numpy.core.multiarray', 'arange',
     Values are generated within the half-open interval ``[start, stop)``
     (in other words, the interval including `start` but excluding `stop`).
     For integer arguments the function is equivalent to the Python built-in
-    `range` function, but returns an ndarray rather than a list.
+    `range` function, but returns an ndarray rather than a range object.
 
     When using a non-integer step, such as 0.1, the results will often not
     be consistent.  It is better to use `numpy.linspace` for these cases.
